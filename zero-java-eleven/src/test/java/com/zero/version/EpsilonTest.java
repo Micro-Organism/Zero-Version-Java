@@ -29,6 +29,8 @@ public class EpsilonTest {
          *  吞吐改进：即便对那些无需内存分配的工作，选择一个 GC 意味着选择了一系列的 GC 屏障，所有的 OpenJDK GC 都是分代的，
          *      所以他们至少会有一个写屏障。避免这些屏障可以带来一点点的吞吐量提升。
          */
+        System.out.println("启用Epsilon:\t");
+        System.out.println("java -XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC MyApp");
     }
 
 }

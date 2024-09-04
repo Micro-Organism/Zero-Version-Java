@@ -13,7 +13,8 @@ public class ZGCTest {
 
     @Test
     public void test() {
-        System.out.println("ZGC");
+        System.out.println("要启用 ZGC，可以使用以下 JVM 参数：");
+        System.out.println("java -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -Xmx10G MyApp");
     }
 
 }
