@@ -1,6 +1,6 @@
 package com.zero.version;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * 简单说，默认方法就是接口可以有实现方法，而且不需要实现类去实现其方法。

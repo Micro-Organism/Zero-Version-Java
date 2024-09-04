@@ -1,6 +1,6 @@
 package com.zero.version;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;

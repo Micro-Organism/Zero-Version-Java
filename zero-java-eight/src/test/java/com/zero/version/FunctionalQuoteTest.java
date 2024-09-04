@@ -1,7 +1,7 @@
 package com.zero.version;
 
 import com.zero.version.example.Car;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
