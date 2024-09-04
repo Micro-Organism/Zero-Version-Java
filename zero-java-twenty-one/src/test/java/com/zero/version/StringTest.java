@@ -4,6 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import java.nio.charset.StandardCharsets;
 
+/**
+ * JEP 419: 改进的本地字符串操作
+ */
 public class StringTest {
 
     /**

@@ -12,6 +12,7 @@ import org.junit.jupiter.api.Test;
 //}
 
 /**
+ * JEP 400: Java 程序集
  * 上面的示例代码展示了如何使用 java.assembly 模块来定义一个简单的 Java 程序集。
  * 你可以通过 requires 来指定依赖关系，并通过 exports 来导出你的模块。
  */

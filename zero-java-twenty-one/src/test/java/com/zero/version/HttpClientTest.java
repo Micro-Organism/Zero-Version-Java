@@ -8,6 +8,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 /**
+ * JEP 417: Java 原生 HTTP/2 客户端
  * JDK 11 引入了原生的 HTTP 客户端，JDK 21 在此基础上进一步增强了对 HTTP/2 的支持，
  * 使得开发者能够更高效地与支持 HTTP/2 协议的服务器进行通信。
  */

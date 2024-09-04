@@ -2,8 +2,14 @@ package com.zero.version;
 
 import org.junit.jupiter.api.Test;
 
+/**
+ * JEP 422: 改进的异常处理
+ */
 public class ExceptionTest {
 
+    /**
+     * 使用改进的异常处理机制来捕获和处理可能发生的异常情况。
+     */
     @Test
     public void testException(){
         try {

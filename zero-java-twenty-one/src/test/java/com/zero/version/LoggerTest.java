@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.logging.Logger;
 
 /**
+ * JEP 413: 非侵入式的 Java 日志记录
  * 这项功能提供了一种非侵入式的方式来进行 Java 日志记录，使得开发者能够更轻松地管理应用程序的日志信息。
  */
 public class LoggerTest {
